@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: UAE_VLPO_2Project
+  gitServerName: VLPO
+  gitUrl: https://github.com/v1adp0s2
+  gitUsername: v1adp0s2
+  gitBranch: main
