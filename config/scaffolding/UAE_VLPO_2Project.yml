@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/v1adp0s2
   gitUsername: v1adp0s2
   gitBranch: main
+- name: Gitex_Local_Assets
+  gitServerName: VLPO
+  gitUrl: https://github.com/v1adp0s2
+  gitUsername: v1adp0s2
+  gitBranch: master
