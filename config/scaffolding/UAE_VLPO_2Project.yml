@@ -8,7 +8,65 @@ packages:
   gitUsername: v1adp0s2
   gitBranch: main
 - name: Gitex_Local_Assets
+  version: "1.0"
   gitServerName: VLPO
   gitUrl: https://github.com/v1adp0s2
   gitUsername: v1adp0s2
   gitBranch: master
+- name: WmJDBCAdapter
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: softwareag
+services:
+- serviceName: project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1
+  packages:
+  - name: UAE_VLPO_2Project
+    version: "1.0"
+  - name: Gitex_Local_Assets
+    version: "1.0"
+configurationVariables:
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.dbType
+  : MSSQL
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.databaseName
+  : wm-demo
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.keyStore
+  : ""
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupRetryCount
+  : "0"
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.trustStore
+  : ""
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.password
+  : "{AES}3Q/DheX9dMA8VOnPUYxzL5UbwnlY3BVjnHcvc4175mk="
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolable
+  : "false"
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.blockingTimeout
+  : "1000"
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.driverType
+  : Progress® DataDirect®
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.portNumber
+  : "1433"
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.minimumPoolSize
+  : "1"
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.datasourceClass
+  : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.heartBeatInterval
+  : "0"
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.transactionType
+  : NO_TRANSACTION
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.networkProtocol
+  : ""
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.user
+  : sa
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionEnabled
+  : "false"
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.maximumPoolSize
+  : "10"
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.otherProperties
+  : loginTimeout=60;
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolIncrementSize
+  : "1"
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupBackoffSecs
+  : "10"
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.expireTimeout
+  : "1000"
+  ? artConnection.UAE_VLPO_2Project.project.uae_vlpo_2.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.serverName
+  : demo-wm-mssql
